@@ -1,16 +1,14 @@
 
 import './App.css';
-import InputField from "./components/InputField";
-import SubmitButton from "./components/SubmitButton";
 import Todos from "./components/Todos";
+import Form from "./components/Form";
 
 
 function App() {
   return (
     <div className="App">
 
-      <InputField />
-      <SubmitButton />
+      <Form />
       <Todos />
 
     </div>
